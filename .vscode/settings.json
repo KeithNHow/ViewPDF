@@ -1,0 +1,50 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${PerTenantExtensionCop}",
+        "${UICop}"
+    ],
+    "[al]": {
+        "editor.wordBasedSuggestions": "allDocuments",
+        "editor.suggestSelection": "first",
+        "editor.formatOnSave": true,
+        "editor.codeLens": true,
+        "editor.semanticHighlighting.enabled": true,
+        "editor.fontSize": 12,
+    },
+    "al.ruleSetPath": "./.vscode/ruleset.json",
+    "al.enableExternalRulesets": true,
+    "al.outputAnalyzerStatistics": true,
+    "al.backgroundCodeAnalysis": true,
+    "al.enableCodeActions": true,
+    "al.packageCachePath": "./.alpackages",
+    "al-test-runner.sendDebugTelemetry": false,
+    "al.compilationOptions": {
+        "generateReportLayout": true
+    },
+    "alOutline.codeCleanupActions": [
+        "AddToolTips",
+        "FixKeywordsCase",
+        "FixIdentifiersCase",
+        "SortVariables",
+        "AddApplicationAreas",
+        "SortTableFields",
+        "AddMissingParentheses",
+        "RemoveBeginEnd",
+        "RemoveUnusedVariables"
+    ],
+    "workbench.editor.enablePreview": true, //Prevents unedited files from remaining open
+    "CRS.ObjectNamePrefix": "KNH",
+    //"CRS.OnSaveAlFileAction": "Rename",
+    "CRS.FileNamePattern": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "github.copilot.chat.scopeSelection": true,
+    "github.copilot.advanced": {
+    "authProvider": "github"
+    },
+    "github.copilot.chat.startDebugging.enabled": true,
+    "github.copilot.chat.generateTests.codeLens": true,
+    "github.copilot.chat.editor.temporalContext.enabled": true,
+}
