@@ -1,8 +1,8 @@
 {
   "id": "dfe8bee9-afe9-4eef-badc-3e30cebb0c33",
   "name": "View PDF",
-  "publisher": "Keith How",
-  "version": "1.0.0.0",
+  "publisher": "KeithHow",
+  "version": "27.0.0.0",
   "brief": "View PDF",
   "description": "View PDF",
   "privacyStatement": "",
@@ -12,7 +12,7 @@
   "logo": "./logo/KNH.jpg",
   "dependencies": [],
   "screenshots": [],
-  "platform": "1.0.0.0",
+  "platform": "27.0.0.0",
   "application": "27.0.0.0",
   "idRanges": [
     {

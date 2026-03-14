@@ -1,3 +1,6 @@
+///<summary>
+/// This page extension adds an action to the posted sales invoice page to allow users to view the invoice PDF that was generated at the time of posting.
+/// </summary>
 namespace KNHViewPDF;
 using Microsoft.Sales.History;
 using Microsoft.Foundation.Reporting;
